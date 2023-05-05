@@ -93,7 +93,7 @@
     const password1 =	$("#password1").val()
     //alert(password)
 	
- $.post("FetchDataClass.php",{
+ $.post("regisClass.php",{
 		email:email,
 		password:passwordl,
         password1:password1
